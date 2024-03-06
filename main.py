@@ -3,7 +3,7 @@ import json
 import time
 
 # Set Variables
-coins_url = "https://api.poloniex.com/markets/"
+coins_url = "https://api.poloniex.com/markets/price"
 coin_price_url = "https://api.poloniex.com/markets/ticker24h"
 
 """
@@ -64,11 +64,11 @@ def step_2():
 
 """ MAIN """
 if __name__ == "__main__":
-    # print("Retrieving list of cryptos...")
-    # coin_list = step_0()
+    print("Retrieving list of cryptos...")
+    coin_list = step_0()
 
-    # print("Structuring cryptos into triangular pairs (2 mins)...")
-    # structured_pairs = step_1(coin_list)
+    print("Structuring cryptos into triangular pairs (2 mins)...")
+    structured_pairs = step_1(coin_list)
 
     print("Running scanning algorithm (will run until killed)...")
     while True:
