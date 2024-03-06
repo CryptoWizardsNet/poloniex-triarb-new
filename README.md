@@ -5,7 +5,7 @@
 Download code from Git within a chosen project folder on your computer
 
 ```shell
-git clone https://github.com/CryptoWizardsNet/poloniex-tri-arb.git
+git clone https://github.com/CryptoWizardsNet/poloniex-triarb-new.git triarb
 ```
 
 ## Step 2
