@@ -3,7 +3,7 @@ import json
 import time
 
 # Set Variables
-coins_url = "https://api.poloniex.com/markets/price"
+coins_url = "https://api.poloniex.com/markets"
 coin_price_url = "https://api.poloniex.com/markets/ticker24h"
 
 """
